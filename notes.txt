@@ -1,0 +1,43 @@
+Versioning :
+Le versioning ( gestion de version ) consiste à maintenir l'ensemble des versions d'un fichier.
+
+Centralized :
+Exemple SVN
+Standard pendant de nombreuses années.
+Il n'existe qu'un seul dépot de version qui fait référence.
+
++
+tout le monde connait le statut de développement de chaque développeur
+-
+tout est en ligne ( si on a pas de serveur alors on ne peut pas sauvegarder )
+on prend le risque de perdre tout le versionning en le sauvegardant à un unique endroit.
+
+Distributed
+Le client n'a pas seulement la derniére version du projet mais tout le dépot.
+N'a pas besoin de serveur
+
+History :
+De 1991 à 2002  les modifications du noyaux linux étaient transmises sous forme d'archive de fichiers.
+En 2002 le projet commence à utiliser un outils de versionning propriéaire : BitKeeper
+En 2005 les relations entre la communauté et BitKeeper furent rompues.
+Linus Torvald développa alors son outils de gestion de version en se basant sur les bases de BitKeeper.
+
+Power of Git :
+Les objectifs étaient les suivants :
+- vitesse
+- conception simple
+- support pour les développement non linéaires ( milliers de branches paralléles )
+- complétement distribué
+- gestion des projets d'envergure ( capacité )
+
+Initialisation
+git init --bare est utilisé à la création du serveur afin de ne pas sauvegarder le répertoire de travail
+
+Remote :
+Dépot distant.
+Versions du projet qui sont sauvegardées sur le réseau.
+
+Branch :
+Créer une branche permet de diverger de la ligne principale de développement.
+
+https://www.grafikart.fr/formations/git/branch-merge
