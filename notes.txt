@@ -61,8 +61,21 @@ Ajouter un fct sans polluer
 
 git branch -D ( delete non fusionnée )
 
-Amend
-git commit --amend
-Permet d'ajouter des fichiers à un commit
+Git rebase :
+Permet de forcer un fast forward
+
+
+Remote :
+C'est une connexion qui a un alias (serveur)
+
+Push :
+Permet d'envoyer tout les commits du PC sur le serveur.
+
+--force : Normalement jamais utilisé. Va modifier l'historique distant. Utiliser par exemple si donnée sensible pushées.
+
+Fetch :
+Récupérer les informations du dépot distant
+
+fdfdf
 
 https://www.grafikart.fr/formations/git/branch-merge
