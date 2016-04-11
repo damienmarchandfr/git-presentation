@@ -36,10 +36,13 @@ Les objectifs étaient les suivants :
 
 
 Git diff
-voir ce qui a été modifié par rapport au denier commit
+voir ce qui a été modifié par rapport au denier add
 
-truc
-454
-dsdsdsd
+Git checkout
+Passer de branche en branche (plus tard )
+Revenir sur un fichier par rapport à un commit
+Revenir sur un commit
+
+
 
 https://www.grafikart.fr/formations/git/branch-merge
