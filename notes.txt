@@ -52,5 +52,13 @@ git reset demo.txt -> suppression du staging mais on annule pas les modification
 
 git reset --hard (dernier commit et suppression des modifications)
 
+git reset commit ( permet de revenir à un commit sans changer le code et efface les commit aprés) -> clean
+
+
+Git branches :
+Permet d'avoir un historique non linéaire
+Ajouter un fct sans polluer
+
+git branch -D ( delete non fusionnée )
 
 https://www.grafikart.fr/formations/git/branch-merge
