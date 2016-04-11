@@ -21,6 +21,8 @@
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
+    <link rel="stylesheet" href="css/style.css">
+
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
@@ -48,7 +50,6 @@
         <section>
             <section>
                 <h1>Versioning ?</h1>
-
                 <p>(or version control)</p>
             </section>
             <section>
@@ -113,7 +114,7 @@
 
         <section>
             <section>
-                <h1>Git local</h1>
+                <h1>My first commit</h1>
                 <img src="img/git.png">
             </section>
             <section>
@@ -132,6 +133,7 @@
                 <h4>Get config</h4>
                 <blockquote>git config --list</blockquote>
             </section>
+
             <section>
                 <h2>Git ignore</h2>
                 <img src="img/gitignore.gif" alt="gitignore">
@@ -144,30 +146,81 @@
                     <li>Good practice</li>
                 </ul>
                 <blockquote>git rm --cached</blockquote>
-                <img src="img/trees.png" alt="trees">
             </section>
             <section>
-                <h2>Remote</h2>
-                <blockquote>git remote add origin https://gith....</blockquote>
-                <img src="img/why-origin.gif" alt="why-origin">
+                <h2>Status</h2>
+                <blockquote>git status</blockquote>
             </section>
             <section>
-                <h2>Local branch</h2>
-                <img src="https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/hero.svg">
+                <h2>Add</h2>
+                <blockquote>git add --a <img src="img/haha.png" style="height: 1em;"></blockquote>
+                <blockquote>git add . <img src="img/choler.png" style="height: 1em"></blockquote>
+                <img src="img/trees.png">
+            </section>
+            <section>
+                <h2>Commit</h2>
+                <blockquote>git commit -m "my commit"</blockquote>
+            </section>
+            <section>
+                <h2>Log</h2>
+                <blockquote>git diff fichier</blockquote>
+                <blockquote>git diff fichier --staged</blockquote>
+                <blockquote>git diff <span class="blue">commit1</span> <span class="red">commit2</span></blockquote>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Back</h1>
+                <img src="img/back-to-the-past-gaslight-tucson.jpg">
+            </section>
+            <section>
+                <h2>Checkout</h2>
                 <ul>
-                    <li>What's a local branch ?</li>
-                    <li>What's for ?</li>
+                    <li>Switch branch</li>
+                    <li>File(s) to stage</li>
                 </ul>
+                <blockquote>git checkout commit</blockquote>
+                <blockquote>git checkout commit file</blockquote>
             </section>
             <section>
-                <h2>Local branch example</h2>
-                <img src="img/local_branch_example.svg" alt="local branch example">
+                <h2>Tag</h2>
+                <blockquote>git log</blockquote>
+                <blockquote>git tag 1.0.0 1b2e1d63ff</blockquote>
+                <span>Tag to branch</span>
+                <blockquote>git checkout -b branch-name V2.0</blockquote>
             </section>
             <section>
-                <h2>Manage branch</h2>
-                <blockquote>git branch dev</blockquote>
-                <blockquote>git checkout dev</blockquote>
-                <blockquote>git checkout -b dev</blockquote>
+                <h2>Revert</h2>
+                <blockquote>git revert commit</blockquote>
+                <span>Will add a commit</span>
+            </section>
+            <section>
+                <h2>Reset</h2>
+                <h3>Safe reset</h3>
+                <blockquote>git reset</blockquote>
+                <blockquote>git reset file</blockquote>
+                <h3>Clean your commits</h3>
+                <blockquote>git reset commit</blockquote>
+                <h3>Warning</h3>
+                <blockquote>git reset --hard</blockquote>
+            </section>
+        </section>
+
+        <section>
+            <section><h1>Branches</h1></section>
+            <section>
+                <h2>Branch</h2>
+                <h3>Create</h3>
+                <blockquote>git branch name</blockquote>
+                <h3>Delete</h3>
+                <blockquote>git branch -d</blockquote>
+                <blockquote>git branch -D</blockquote>
+            </section>
+            <section>
+                <h2>Checkout</h2>
+                <blockquote>git checkout branch</blockquote>
+                <blockquote>git checkout -b branch</blockquote>
             </section>
             <section>
                 <h2>Stash</h2>
@@ -177,77 +230,23 @@
                 <blockquote>git stash branch branch-from-stash</blockquote>
             </section>
             <section>
-                <h2>Commit</h2>
-                <blockquote>git status</blockquote>
-                <blockquote>git add --a <img src="img/haha.png" style="height: 1em;"></blockquote>
-                <blockquote>git add . <img src="img/choler.png" style="height: 1em"></blockquote>
-                <blockquote>git commit -m "my commit"</blockquote>
-            </section>
-            <section>
-                <h2>Tag</h2>
-                <blockquote>git log</blockquote>
-                <blockquote>git tag 1.0.0 1b2e1d63ff</blockquote>
-            </section>
-            <section>
-                <h2>Reset</h2>
-                <blockquote>git log</blockquote>
-                <blockquote>git reset --hard 0d1d7fc32</blockquote>
-            </section>
-            <section>
-                <h1>RM</h1>
-                <blockquote>git rm fileName</blockquote>
-            </section>
-            <section>
-                <h2>Push</h2>
-                <blockquote>git push origin master</blockquote>
-                <img src="img/pushforce.gif" alt="push force">
-            </section>
-        </section>
-
-        <section>
-            <section>
-                <h1>Git online</h1>
-                <img src="img/incaseoffire.png" style="height: 10em;">
-            </section>
-            <section>
-                <h2>Clone</h2>
-                <blockquote>git clone git://example.com/m</blockquote>
-                <blockquote>git branch <br/> master*</blockquote>
-            </section>
-            <section>
-                <h2>Remote branches</h2>
-                <blockquote>git branch -a <br/>* master<br/>
-                    remotes/origin/HEAD<br/>
-                    remotes/origin/master<br/>
-                    remotes/origin/v1.0-stable<br/>
-                    remotes/origin/experimental
-                </blockquote>
-                <blockquote>git pull --all</blockquote>
-            </section>
-            <section>
-                <h2>Fetch</h2>
-                <blockquote>git fetch remote <br/> OR <br/>git fetch remote branch</blockquote>
-                <blockquote>git log branch..remote/branch</blockquote>
-            </section>
-            <section>
                 <h2>Merge</h2>
-                <blockquote>git commit dev -m "dev finished"</blockquote>
-                <blockquote>git checkout master</blockquote>
-                <blockquote>git merge dev</blockquote>
+                <blockquote>git merge source-branch</blockquote>
+                <span>Will create a fusion commit.</span>
             </section>
             <section>
-                <h2>Merge methods</h2>
-
-                <h3>Fast forward</h3>
-
-                <h3>3-way merge</h3>
+                <h2>Fast forward</h2>
+                <img src="img/FastForwardMerge.png"><br/>
+                <span>When ?</span>
             </section>
             <section>
-                <h2>Pull</h2>
-
-                <p>PULL = FETCH + MERGE</p>
+                <h2>3-way merge</h2>
+                <img src="img/merge.png"><br/>
+                <span>When ?</span>
             </section>
+
         </section>
+
 
         <section>
             <section>

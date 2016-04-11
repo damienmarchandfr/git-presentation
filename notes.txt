@@ -28,7 +28,6 @@ Les objectifs étaient les suivants :
 - conception simple
 - support pour les développement non linéaires ( milliers de branches paralléles )
 - complétement distribué
-- gestion des projets d'envergure ( capacité )
 
 Initialisation
 git init --bare est utilisé à la création du serveur afin de ne pas sauvegarder le répertoire de travail
@@ -39,5 +38,10 @@ Versions du projet qui sont sauvegardées sur le réseau.
 
 Branch :
 Créer une branche permet de diverger de la ligne principale de développement.
+
+Tag :
+Les étiquettes sont des poiteurs sur des commits et permettent de reconnaitre des versions importantes et de
+les distinguer.
+
 
 https://www.grafikart.fr/formations/git/branch-merge
