@@ -16,6 +16,11 @@ Distributed
 Le client n'a pas seulement la derniére version du projet mais tout le dépot.
 N'a pas besoin de serveur
 
+Utilisation :
+- collaboratif
+- changement
+- tout le monde doit y avoir accés
+
 History :
 De 1991 à 2002  les modifications du noyaux linux étaient transmises sous forme d'archive de fichiers.
 En 2002 le projet commence à utiliser un outils de versionning propriéaire : BitKeeper
@@ -29,19 +34,8 @@ Les objectifs étaient les suivants :
 - support pour les développement non linéaires ( milliers de branches paralléles )
 - complétement distribué
 
-Initialisation
-git init --bare est utilisé à la création du serveur afin de ne pas sauvegarder le répertoire de travail
 
-Remote :
-Dépot distant.
-Versions du projet qui sont sauvegardées sur le réseau.
-
-Branch :
-Créer une branche permet de diverger de la ligne principale de développement.
-
-Tag :
-Les étiquettes sont des poiteurs sur des commits et permettent de reconnaitre des versions importantes et de
-les distinguer.
+Git diff
 
 
 https://www.grafikart.fr/formations/git/branch-merge
