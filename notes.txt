@@ -43,6 +43,14 @@ Passer de branche en branche (plus tard )
 Revenir sur un fichier par rapport à un commit
 Revenir sur un commit
 
+Git revert
+git revert lastCommit
+Revert permet d'inverser un commit. (crée un commit)
+
+Reset
+git reset demo.txt -> suppression du staging mais on annule pas les modifications
+
+git reset --hard (dernier commit et suppression des modifications)
 
 
 https://www.grafikart.fr/formations/git/branch-merge
