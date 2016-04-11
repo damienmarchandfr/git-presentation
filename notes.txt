@@ -61,4 +61,8 @@ Ajouter un fct sans polluer
 
 git branch -D ( delete non fusionnée )
 
+Amend
+git commit --amend
+Permet d'ajouter des fichiers à un commit
+
 https://www.grafikart.fr/formations/git/branch-merge
