@@ -36,6 +36,10 @@ Les objectifs étaient les suivants :
 
 
 Git diff
+voir ce qui a été modifié par rapport au denier commit
 
+truc
+454
+dsdsdsd
 
 https://www.grafikart.fr/formations/git/branch-merge
