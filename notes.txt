@@ -76,6 +76,5 @@ Permet d'envoyer tout les commits du PC sur le serveur.
 Fetch :
 Récupérer les informations du dépot distant
 
-fdfdf
 
 https://www.grafikart.fr/formations/git/branch-merge
